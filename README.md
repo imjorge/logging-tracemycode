@@ -37,6 +37,8 @@ Create text document `<jboss-home>/modules/com/jorge/logging/tracemycode/main/mo
       </dependencies>
     </module>
 
+Add file `test-tracemycode-0.0.1-SNAPSHOT.jar` from `target` folder into `<jboss-home>/modules/com/jorge/logging/tracemycode/main/`.
+
 Configure custom log handler in JBoss 7
 ==
 
