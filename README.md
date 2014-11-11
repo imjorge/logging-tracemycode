@@ -24,7 +24,7 @@ Add new module to JBoss 7
 
 Create folders `<jboss-home>/modules/com/jorge/logging/tracemycode/main`.
 
-Create text document `<jboss-home>/modules/com/jorge/logging/tracemycode/main/module.xml` with the following contents:
+Create file `<jboss-home>/modules/com/jorge/logging/tracemycode/main/module.xml` with the following contents:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <module xmlns="urn:jboss:module:1.1" name="com.jorge.logging.tracemycode">
@@ -37,7 +37,7 @@ Create text document `<jboss-home>/modules/com/jorge/logging/tracemycode/main/mo
       </dependencies>
     </module>
 
-Copy file `test-tracemycode-0.0.1-SNAPSHOT.jar` from `target` folder into `<jboss-home>/modules/com/jorge/logging/tracemycode/main/`.
+Copy file `tracemycode-0.0.1-SNAPSHOT.jar` from `target` folder into `<jboss-home>/modules/com/jorge/logging/tracemycode/main/`.
 
 Configure custom log handler in JBoss 7
 ==
