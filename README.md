@@ -27,9 +27,9 @@ Create folders `<jboss-home>/modules/com/jorge/logging/tracemycode/main`.
 Create text document `<jboss-home>/modules/com/jorge/logging/tracemycode/main/module.xml` with the following contents:
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <module xmlns="urn:jboss:module:1.1" name="com.jorge.test.tracemycode">
+    <module xmlns="urn:jboss:module:1.1" name="com.jorge.logging.tracemycode">
       <resources>
-        <resource-root path="test-tracemycode-0.0.1-SNAPSHOT.jar"/>
+        <resource-root path="tracemycode-0.0.1-SNAPSHOT.jar"/>
       </resources>
       <dependencies>
         <module name="org.codehaus.jackson.jackson-mapper-asl"/>
